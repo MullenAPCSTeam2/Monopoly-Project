@@ -1,5 +1,5 @@
 
-public  class GO extends EventTiles
+public  class GO extends EventTile
 	{
 
 	}

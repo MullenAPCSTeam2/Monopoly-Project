@@ -1,5 +1,5 @@
 
-public class Jail extends EventTiles
+public class Jail extends EventTile
 	{
 
 	}
