@@ -1,5 +1,5 @@
 
-public  class Chance extends EventTiles
+public  class Chance extends EventTile
 	{
 
 	}
