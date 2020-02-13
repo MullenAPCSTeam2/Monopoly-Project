@@ -2,11 +2,15 @@
 public class Jail extends EventTile
 	{
 
-	@Override
-	public void triggerEvent()
+ 
+	
+
+	public Jail()
 		{
-			// TODO Auto-generated method stub
-			
+			super("Jail");
+			// TODO Auto-generated constructor stub
 		}
+
+
 
 	}

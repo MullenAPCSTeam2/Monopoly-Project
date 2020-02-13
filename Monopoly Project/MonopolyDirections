@@ -1,6 +1,77 @@
 Welcome to Monopoly! 
-Here's how to play: 
 
-1) Find 2-8 players to play with you
-2) Choose one of these players to be the Banker. The Banker is in charge of all the money, property, houses, and hotels that belong to the Bank. This player monitors the money and directs purchases. 
-3) Set up the Monopoly Board. Unfold the board on a flat surface and space out the players so that each has enough room for their individual properties and money. Also lay out the Chance and Community Chest cards on the board in the spaces marked. 
+Components of the Game:
+1) 2-8 players are needed for this game.
+2) The Monopoly Board shown on the Computer Screen.
+3) Two dice that the computer rolls when commanded.
+4) Tokens for each player. 
+5) 32 houses and 12 hotels.
+6) 16 Chance and 16 Community Chest cards.
+7) 28 Title Deed cards for each property. 
+8) Money (held in the computer-run bank).
+
+Object of the Game: to become the wealthiest player through buying, renting, and selling property as well as forcing 
+other players into bankruptcy. 
+
+Setup: 
+1) Once a player moves on from these directions the Monopoly Board will pull up and you will begin playing. 
+The Board has Chance and Community Chest cards face down on their alloted spaces.
+2) Each player will choose one token to represent them on the Board.
+3) Each player is given $1500 which is divided like so: 2 $500s, 2 $100s, 2 $50s, 6 $20s, 5 $10s, 5 $5s, and 5 $1s.
+
+The Bank: 
+1) The bank pays salaries.
+2) The bank collects all taxes, fines, loans, and interest.
+3) The bank also prices all properties and monitors selling and auctioning of properties. 
+4) The bank will not run out of money. 
+
+Buying Property: 
+1) When land on unknown property, a player can buy that property from the Bank. 
+2) Once doing this, the player receives the Title Deed card. 
+3) If a player does not wish to buy the property, the Bank sells the property through an auction to the highest bidder. 
+Bidding may start at any price and any player may bid. 
+
+Paying Rent:
+1) If a player lands on a property owned by another player, the owner collects rent in accordance with the rent price on 
+the Title Deed card. 
+2) If the property is mortgaged, the owner cannot collect rent. 
+3) If a owner holds all the Title Deed cards in a color-group, the owner may charge double rent. 
+4) The owner may not collect rent if they fail to ask for rent before the next player rolls dice. 
+
+Chance and Community Chest:
+1) When a player lands on one of these spaces, they take the top card from these decks and follow the instructions on the 
+card. Then return the card to the deck. 
+2) A "Get Out of Jail Free" card can be held until used, then return. 
+3) A player can also sell a "Get Out of Jail Free" card at an agreeable price. 
+
+Jail:
+1) If a player is sent to jail, they must go directly to jail from their spot on the board. If "GO" is passed, no salary
+may be collected. The player's turn ends when they are sent to jail. 
+2) If a player lands on jail, but is not sent to jail, they are not in jail. The player is "Just Visiting" and may move ahead
+in the usual manner. 
+3) A player gets out of jail by either paying a $50 fine before their next turn, using their "Get Out of Jail Free" card, or
+buying a "Get Out of Jail Free" card from another player. 
+
+Free Parking:
+
+Houses and Hotels:
+
+Building Shortages:
+
+Selling Property:
+
+Mortgages:
+
+Bankruptcy:
+1) 
+
+How to Play: 
+1) Each player will roll the dice to see who goes first. The player with the highest sum of the dice goes first
+(in the case of a tie, the younger of the two goes first). Then the other players follow in a clockwise direction. 
+2) Each player's token begins at "GO". A player rolls the dice, adds the total, and moves that many spaces on the board. 
+Two or more tokens may rest on the same space at the same time. 
+3) Depending on the space landed on, a player may buy property, pay rent, draw a Chance or Community Chest card,
+or go to Jail. 
+4) If your die roll the same number, you get to play another turn and roll again. If you roll the same number three times 
+in a row you go straight to jail. 
+5) Each time a player's token lands on or passes over "GO", the Bank pays the player a $200 salary. 
