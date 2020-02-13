@@ -55,6 +55,8 @@ buying a "Get Out of Jail Free" card from another player.
 Free Parking:
 1) This is a "free" resting space. 
 The player landing on it doesn't receive money, property, reward, or penalty of any kind. 
+2) If a player lands on this space, the player will then switch directions and go around the board the other way. This happens every time
+ a player lands on this space. A player can switch directions multiple times. 
 
 Houses and Hotels:
 1) When a player owns all the properties in a color-group, the player can buy houses from the Bank.
