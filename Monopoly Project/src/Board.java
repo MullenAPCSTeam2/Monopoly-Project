@@ -42,7 +42,7 @@ public class Board
 			board[17] = new CommunityChest();
 			board[18] = new Property("Tennessee Avenue", 180, "Orange");
 			board[19] = new Property("New York Avenue", 200, "Orange");
-			// TODO free parking
+			board[20] = new FreeParking();
 			board[21] = new Property("Kentucky Avenue", 220, "Red");
 			board[22] = new Chance();
 			board[23] = new Property("Indiana Avenue", 220, "Red");
