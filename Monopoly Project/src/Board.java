@@ -26,7 +26,7 @@ public class Board
 			board[1] = new Property("Mediterranian Avenue", 60, "Purple");
 			board[2] = new CommunityChest();
 			board[3] = new Property("Baltic Avenue", 60, "Purple");
-			//TODO tax
+			board[4] = new Tax("Income Tax");
 			board[5] = new Railroad("Reading Railroad", 60);
 			board[6] = new Property("Oriental Avenue", 100, "Light Blue");
 			board[7] = new Chance();
@@ -60,7 +60,7 @@ public class Board
 			board[35] = new Railroad("Short Line", 200);
 			board[36] = new Chance();
 			board[37] = new Property("Park Place", 350, "Blue");
-			//TODO Tax
+			board[38] = new Tax("Luxary Tax");
 			board[39] = new Property("Boardwalk", 400, "Blue");
 			
 					
