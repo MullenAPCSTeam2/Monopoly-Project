@@ -52,7 +52,7 @@ public class Board
 			board[27] = new Property("Ventnor Aventue", 260, "Yellow");
 			board[28] = new Utility("Water Works", 150);
 			board[29] = new Property("Marvin Gardens", 280, "Yellow");
-			//TODO go to jail
+			board[30] = new GoToJail();
 			board[31] = new Property("Pacific Avenue", 300, "Green");
 			board[32] = new Property("North Carolina Avenue", 300, "Green");
 			board[33] = new CommunityChest();
