@@ -21,12 +21,13 @@ public class Deck
 				    this.cards[8]= new PayCard("Your parents die, you inherit $100", 100);
 				    this.cards[9]= new PayCard("From sale of stock you earn 45$", 45);
 				    this.cards[10]= new PayCard("Xmas fund matures - collect 100$", 100);
-				    this.cards[11] = new PayPerBuildingCard (45,115,"You are assessed for street repairs – $40 per house, $115 per hotel");
+				    this.cards[11] = new PayPerBuildingCard (45,115,"You are assessed for street repairs ï¿½ $40 per house, $115 per hotel");
 				    this.cards[12] = new PayPlayerCard(50,"Grand Opera Night - pay 50$ to each player");
-				    this.cards[13] = new GetOutOfJailCard("Get out of jail free – this card may be kept until needed, or sold");
-				    this.cards[14] = new GoToJailCard("Go to jail – go directly to jail – Do not pass Go, do not collect $200 ");
+				    this.cards[13] = new GetOutOfJailCard("Get out of jail free ï¿½ this card may be kept until needed, or sold");
+				    this.cards[14] = new GoToJailCard("Go to jail ï¿½ go directly to jail ï¿½ Do not pass Go, do not collect $200 ");
 				    this.cards[15] = new GoToCard("Advance to Go, Collect 200$",0);
 				    this.total = 16;
+				    
 			}
 			
 		}

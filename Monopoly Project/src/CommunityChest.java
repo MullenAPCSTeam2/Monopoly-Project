@@ -7,12 +7,15 @@ public class CommunityChest extends EventTile
 		}
 		
 		
-		
+		//this.method : use when want class you are using to edit itself. I am editing the card array. (simple terms)
 	@Override
 	public void triggerEvent()
 		{
-			// TODO Auto-generated method stub
+		System.out.println("You Landed on Community Chest! you must draw!");
+		System.out.println(Deck.print());
 			
 		}
+	
+	// in Runner 
 
 	}
