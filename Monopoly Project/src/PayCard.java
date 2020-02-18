@@ -5,6 +5,7 @@ import javax.smartcardio.CardException;
 
 public class PayCard extends Card
 	{
+	
 
 
 	}
