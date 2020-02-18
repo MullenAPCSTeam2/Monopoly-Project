@@ -1,4 +1,5 @@
 
+
 public class CommunityChest extends EventTile
 	{
 
@@ -19,3 +20,4 @@ public class CommunityChest extends EventTile
 	// in Runner 
 
 	}
+
