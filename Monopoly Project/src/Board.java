@@ -4,7 +4,7 @@ import java.util.concurrent.PriorityBlockingQueue;
 public class Board
 	{
 		
-		ArrayList<String> tileNames = new ArrayList<String>();
+		static ArrayList<String> tileNames = new ArrayList<String>();
 
 		//array represents a 11 x 11 board (40 tiles)
 		public static Tile[] board = new Tile[40];
