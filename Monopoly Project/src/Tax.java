@@ -1,12 +1,10 @@
 
-
-public class CommunityChest extends EventTile
+public class Tax extends EventTile
 	{
 
-		public CommunityChest(){
-			super("Community Chest");
+		public Tax(String name){
+			super(name);
 		}
-		
 		
 		
 	@Override
@@ -17,4 +15,3 @@ public class CommunityChest extends EventTile
 		}
 
 	}
-

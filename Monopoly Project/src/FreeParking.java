@@ -1,12 +1,10 @@
 
-
-public class CommunityChest extends EventTile
+public class FreeParking extends EventTile
 	{
 
-		public CommunityChest(){
-			super("Community Chest");
+		public FreeParking(){
+			super("FreeParking");
 		}
-		
 		
 		
 	@Override
@@ -17,4 +15,3 @@ public class CommunityChest extends EventTile
 		}
 
 	}
-

@@ -14,7 +14,8 @@ public  class Chance extends EventTile
 	@Override
 	public void triggerEvent()
 		{
-			// TODO Auto-generated method stub
+			System.out.println("You Landed on chance! you must draw!");
+			System.out.println(Deck.print());
 			
 		}
 
