@@ -3,11 +3,13 @@ public class Player
 {
 	private static int money;
 	private static String name;
+	private static String piece;
 	
-	public Player(int m, String n)
+	public Player(int m, String n, String p)
 	{
 		setMoney(m);
 		setName(n);
+		setPiece(p);
 	}
 
 	public static int getMoney() {
@@ -24,5 +26,13 @@ public class Player
 
 	public static void setName(String name) {
 		Player.name = name;
+	}
+
+	public static String getPiece() {
+		return piece;
+	}
+
+	public static void setPiece(String piece) {
+		Player.piece = piece;
 	}
 }
