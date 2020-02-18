@@ -1,5 +1,12 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.PriorityBlockingQueue;
+
+import java.util.Scanner;
 
 public class Board
 	{
@@ -23,6 +30,50 @@ public class Board
 			//TODO set up the board based on the original game
 			
 			
+			//set upm reader
+			
+			try
+				{
+					FileReader UBreader = new FileReader(new File("TileSettings.txt"));
+					BufferedReader reader= new BufferedReader(UBreader);
+					
+					
+					for(int i = 0; i < 40; i ++){
+						String[] line = reader.readLine().split(", ");
+						switch(line[0]){
+							
+							case "Property":
+								board[i] = new Property(board[1], Integer.parseInt(board[2]), board[3]);
+								break;
+							
+							
+							
+							
+							
+							
+						}
+						
+						
+					}
+					
+					
+				} catch (FileNotFoundException e)
+				{
+					loadClassicGame();
+				} catch (IOException e)
+					{
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+			
+			
+			
+
+			
+					
+			}
+		
+		public static void loadClassicGame(){
 			board[0] = new GO();
 			board[1] = new Property("Mediterranian Avenue", 60, "Purple");
 			board[2] = new CommunityChest();
@@ -63,9 +114,7 @@ public class Board
 			board[37] = new Property("Park Place", 350, "Blue");
 			board[38] = new Tax("Luxary Tax");
 			board[39] = new Property("Boardwalk", 400, "Blue");
-			
-					
-			}
+		}
 			
 			
 			

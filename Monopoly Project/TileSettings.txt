@@ -1,0 +1,40 @@
+GO
+Property, "Mediterranian Avenue", 60, "Purple"
+CommunityChest
+Property, "Baltic Avenue", 60, "Purple"
+Tax, "Income Tax"
+Railroad, "Reading Railroad", 60
+Property, "Oriental Avenue", 100, "Light Blue"
+Chance,
+Property, "Vermont Avenue", 100, "Light Blue"
+Property, "Connecticut Avenue", 120, "Light Blue"
+Jail,
+Property, "St. Charles Place", 140, "Pink"
+Utility, "Electric Company", 150
+Property, "States Avenue", 140, "Pink"
+Property, "Virginia Avenue", 160, "Pink"
+Railroad, "Pennsylvania Railroad", 200
+Property, "St. James Place", 180, "Orange"
+CommunityChest 
+Property, "Tennessee Avenue", 180, "Orange"
+Property, "New York Avenue", 200, "Orange"
+FreeParking, 
+Property, "Kentucky Avenue", 220, "Red"
+Chance 
+Property, "Indiana Avenue", 220, "Red"
+Property, "Illinois Avenue", 240, "Red"
+Railroad, "B & O Railroad", 200
+Property, "Atlantic Avenue", 260, "Yellow"
+Property, "Ventnor Aventue", 260, "Yellow"
+Utility, "Water Works", 150
+Property, "Marvin Gardens", 280, "Yellow"
+GoToJail 
+Property, "Pacific Avenue", 300, "Green"
+Property, "North Carolina Avenue", 300, "Green"
+CommunityChest 
+Property, "Penneylvania Avenue", 320, "Green"
+Railroad, "Short Line", 200
+Chance 
+Property, "Park Place", 350, "Blue"
+Tax, "Luxary Tax"
+Property, "Boardwalk", 400, "Blue"
