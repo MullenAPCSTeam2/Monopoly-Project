@@ -14,7 +14,7 @@ public  class CommunityChest extends EventTile
 	@Override
 	public void triggerEvent()
 		{
-			System.out.println("You Landed on chance! you must draw!");
+			System.out.println("You Landed on community chest! you must draw!");
 			System.out.println(Deck.print());
 			
 		}
