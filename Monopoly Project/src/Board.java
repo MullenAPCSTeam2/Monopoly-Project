@@ -24,7 +24,7 @@ public class Board
 			
 			board[0] = new GO();
 			board[1] = new Property("Mediterranian Avenue", 60, "Purple");
-			board[2] = new CommunityChest();
+			board[2] = new ChanceCards();
 			board[3] = new Property("Baltic Avenue", 60, "Purple");
 			board[4] = new Tax("Income Tax");
 			board[5] = new Railroad("Reading Railroad", 60);
@@ -39,7 +39,7 @@ public class Board
 			board[14] = new Property("Virginia Avenue", 160, "Pink");
 			board[15] = new Railroad("Pennsylvania Railroad", 200);
 			board[16] = new Property("St. James Place", 180, "Orange");
-			board[17] = new CommunityChest();
+			board[17] = new ChanceCards();
 			board[18] = new Property("Tennessee Avenue", 180, "Orange");
 			board[19] = new Property("New York Avenue", 200, "Orange");
 			board[20] = new FreeParking();
@@ -55,7 +55,7 @@ public class Board
 			board[30] = new GoToJail();
 			board[31] = new Property("Pacific Avenue", 300, "Green");
 			board[32] = new Property("North Carolina Avenue", 300, "Green");
-			board[33] = new CommunityChest();
+			board[33] = new ChanceCards();
 			board[34] = new Property("Penneylvania Avenue", 320, "Green");
 			board[35] = new Railroad("Short Line", 200);
 			board[36] = new Chance();
