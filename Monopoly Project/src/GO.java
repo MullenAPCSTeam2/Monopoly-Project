@@ -12,14 +12,12 @@ public  class GO extends EventTile
 	public void triggerEvent()
 		{
 			
-<<<<<<< HEAD
-			
+
+
+		
+
+
+
 		}
-=======
-		}
-
-
->>>>>>> upstream/master
-
 
 	}

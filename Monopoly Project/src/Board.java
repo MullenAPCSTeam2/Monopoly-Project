@@ -24,9 +24,15 @@ public class Board
 			
 			board[0] = new GO();
 			board[1] = new Property("Mediterranian Avenue", 60, "Purple");
+<<<<<<< HEAD
 			//TODO community chest
 			board[3] = new Property("Baltic Avenue", 60, "Purple");
 			//TODO tax
+=======
+			board[2] = new CommunityChest();
+			board[3] = new Property("Baltic Avenue", 60, "Purple");
+			board[4] = new Tax("Income Tax");
+>>>>>>> upstream/master
 			board[5] = new Railroad("Reading Railroad", 60);
 			board[6] = new Property("Oriental Avenue", 100, "Light Blue");
 			board[7] = new Chance();
@@ -39,10 +45,17 @@ public class Board
 			board[14] = new Property("Virginia Avenue", 160, "Pink");
 			board[15] = new Railroad("Pennsylvania Railroad", 200);
 			board[16] = new Property("St. James Place", 180, "Orange");
+<<<<<<< HEAD
 			//TODO community chest
 			board[18] = new Property("Tennessee Avenue", 180, "Orange");
 			board[19] = new Property("New York Avenue", 200, "Orange");
 			// TODO free parking
+=======
+			board[17] = new CommunityChest();
+			board[18] = new Property("Tennessee Avenue", 180, "Orange");
+			board[19] = new Property("New York Avenue", 200, "Orange");
+			board[20] = new FreeParking();
+>>>>>>> upstream/master
 			board[21] = new Property("Kentucky Avenue", 220, "Red");
 			board[22] = new Chance();
 			board[23] = new Property("Indiana Avenue", 220, "Red");
@@ -52,15 +65,26 @@ public class Board
 			board[27] = new Property("Ventnor Aventue", 260, "Yellow");
 			board[28] = new Utility("Water Works", 150);
 			board[29] = new Property("Marvin Gardens", 280, "Yellow");
+<<<<<<< HEAD
 			//TODO go to jail
 			board[31] = new Property("Pacific Avenue", 300, "Green");
 			board[32] = new Property("North Carolina Avenue", 300, "Green");
 			//TODO community chest
+=======
+			board[30] = new GoToJail();
+			board[31] = new Property("Pacific Avenue", 300, "Green");
+			board[32] = new Property("North Carolina Avenue", 300, "Green");
+			board[33] = new CommunityChest();
+>>>>>>> upstream/master
 			board[34] = new Property("Penneylvania Avenue", 320, "Green");
 			board[35] = new Railroad("Short Line", 200);
 			board[36] = new Chance();
 			board[37] = new Property("Park Place", 350, "Blue");
+<<<<<<< HEAD
 			//TODO Tax
+=======
+			board[38] = new Tax("Luxary Tax");
+>>>>>>> upstream/master
 			board[39] = new Property("Boardwalk", 400, "Blue");
 			
 					
