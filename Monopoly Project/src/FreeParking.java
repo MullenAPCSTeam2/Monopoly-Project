@@ -10,7 +10,7 @@ public class FreeParking extends EventTile
 	@Override
 	public void triggerEvent()
 		{
-			// TODO Auto-generated method stub
+			//TODO player.switchDirection();
 			
 		}
 

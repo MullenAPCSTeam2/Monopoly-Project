@@ -3,11 +3,13 @@ public class Player
 {
 	private static int money;
 	private static String name;
+	protected int   movementDirection;
 	
 	public Player(int m, String n)
 	{
 		setMoney(m);
 		setName(n);
+		this.movementDirection = 1;
 	}
 
 	public static int getMoney() {
@@ -24,5 +26,9 @@ public class Player
 
 	public static void setName(String name) {
 		Player.name = name;
+	}
+	
+	public void switchDirection(){
+		this.movementDirection *= -1;
 	}
 }
