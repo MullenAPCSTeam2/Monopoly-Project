@@ -25,11 +25,15 @@ public class Board
 			board[0] = new GO();
 			board[1] = new Property("Mediterranian Avenue", 60, "Purple");
 <<<<<<< HEAD
+<<<<<<< HEAD
 			//TODO community chest
 			board[3] = new Property("Baltic Avenue", 60, "Purple");
 			//TODO tax
 =======
 			board[2] = new CommunityChest();
+=======
+			board[2] = new ChanceCards();
+>>>>>>> upstream/master
 			board[3] = new Property("Baltic Avenue", 60, "Purple");
 			board[4] = new Tax("Income Tax");
 >>>>>>> upstream/master
@@ -46,12 +50,16 @@ public class Board
 			board[15] = new Railroad("Pennsylvania Railroad", 200);
 			board[16] = new Property("St. James Place", 180, "Orange");
 <<<<<<< HEAD
+<<<<<<< HEAD
 			//TODO community chest
 			board[18] = new Property("Tennessee Avenue", 180, "Orange");
 			board[19] = new Property("New York Avenue", 200, "Orange");
 			// TODO free parking
 =======
 			board[17] = new CommunityChest();
+=======
+			board[17] = new ChanceCards();
+>>>>>>> upstream/master
 			board[18] = new Property("Tennessee Avenue", 180, "Orange");
 			board[19] = new Property("New York Avenue", 200, "Orange");
 			board[20] = new FreeParking();
@@ -74,7 +82,11 @@ public class Board
 			board[30] = new GoToJail();
 			board[31] = new Property("Pacific Avenue", 300, "Green");
 			board[32] = new Property("North Carolina Avenue", 300, "Green");
+<<<<<<< HEAD
 			board[33] = new CommunityChest();
+>>>>>>> upstream/master
+=======
+			board[33] = new ChanceCards();
 >>>>>>> upstream/master
 			board[34] = new Property("Penneylvania Avenue", 320, "Green");
 			board[35] = new Railroad("Short Line", 200);
