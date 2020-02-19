@@ -13,10 +13,7 @@ public class Directions
 	{
 	static JFrame frame = new JFrame();
 
-		public static void howToPlay() throws FileNotFoundException, IOException 
-		{
-			
-			try(BufferedReader bufferedReader = new BufferedReader(new FileReader("MonopolyDirections.txt")))
+	
 
 		public static void howToPlay() throws FileNotFoundException, IOException
 		{
