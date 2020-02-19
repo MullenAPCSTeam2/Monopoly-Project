@@ -25,8 +25,7 @@ public class Directions
 				while((line = bufferedReader.readLine()) != null)
 				{
 
-					JOptionPane.showMessageDialog(frame, line);
-
+					
 					System.out.println(line);
 
 				}
