@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Board
 	{
 		
-		ArrayList<String> tileNames = new ArrayList<String>();
+		static ArrayList<String> tileNames = new ArrayList<String>();
 
 		//array represents a 11 x 11 board (40 tiles)
 		public static Tile[] board = new Tile[40];
@@ -40,18 +40,55 @@ public class Board
 					
 					for(int i = 0; i < 40; i ++){
 						String[] line = reader.readLine().split(", ");
+						System.out.println(i + ": " + line[0]);
 						switch(line[0]){
 							
 							case "Property":
-								board[i] = new Property(board[1], Integer.parseInt(board[2]), board[3]);
+								board[i] = new Property(line[1], Integer.parseInt(line[2]), line[3]);
 								break;
-							
-							
-							
-							
-							
+								
+							case "GO":
+								board[i] = new GO();
+								break;
+								
+							case "CommunityChest":
+								board[i] = new CommunityChest();
+								break;
+								
+							case "Tax":
+								board[i] = new Tax(line[1]);
+								break;
+								
+							case "Railroad":
+								board[i] = new Railroad(line[1],  Integer.parseInt(line[2]));
+								break;
+								
+							case "Chance":
+								board[i] = new Chance();
+								break;
+								
+							case "Jail":
+								board[i] = new Jail();
+								break;
+								
+							case "Utility":
+								board[i] = new Utility(line[1], Integer.parseInt(line[2]));
+								break;
+								
+							case "FreeParking":
+								 board[i] = new FreeParking();
+								 break;
+								 
+							case "GoToJail":
+								board[i] = new GoToJail();
+								break;
+								
+							default:
+								System.out.println("Something went terribly wrong while loading the board...");
+								
 							
 						}
+						tileNames.add(board[i].getName());
 						
 						
 					}
