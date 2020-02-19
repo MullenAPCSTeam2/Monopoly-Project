@@ -12,5 +12,9 @@ public abstract class Tile
 	 
 		public abstract void landOnTile();
 		
+		public String getName(){
+			return this.tileName;
+		}
+		
 		
 	}
