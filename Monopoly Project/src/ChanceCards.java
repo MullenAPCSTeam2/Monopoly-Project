@@ -1,10 +1,10 @@
 
 
-public class Chance extends EventTile
+public class ChanceCards extends EventTile
 	{
 
-		public Chance(){
-			super("Community Chest");
+		public ChanceCards(){
+			super("Chance Cards");
 		}
 		
 		
@@ -12,8 +12,8 @@ public class Chance extends EventTile
 	@Override
 	public void triggerEvent()
 		{
-		System.out.println("You Landed on Community Chest! you must draw!");
-		System.out.println(Deck.print());
+		System.out.println("You Landed on Chance! you must draw!");
+	//	System.out.println(Deck.print());
 			
 		}
 	
