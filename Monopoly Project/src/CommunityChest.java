@@ -2,22 +2,20 @@
 public  class CommunityChest extends EventTile
 	{
 
-
-
-	public CommunityChest()
+	public CommunityChest(String tileName)
 		{
-			super("Chance");
+			super("community chest");
 			// TODO Auto-generated constructor stub
 		}
-
 
 	@Override
 	public void triggerEvent()
 		{
-			System.out.println("You Landed on community chest! you must draw!");
-			System.out.println(Deck.print());
+			// TODO Auto-generated method stub
 			
 		}
+
+
 
 
 	}

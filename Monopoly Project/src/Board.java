@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import java.util.concurrent.PriorityBlockingQueue;
 
 public class Board
@@ -104,7 +104,7 @@ public class Board
 		
 		
 	}
-=======
+
 import java.util.ArrayList;
 import java.util.concurrent.PriorityBlockingQueue;
 
