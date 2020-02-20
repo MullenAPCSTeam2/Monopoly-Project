@@ -1,4 +1,3 @@
-
 public class Player 
 
 {
@@ -46,4 +45,3 @@ public class Player
 		this.movementDirection *= -1;
   }
 }
-
