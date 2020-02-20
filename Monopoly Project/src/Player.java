@@ -1,4 +1,5 @@
 public class Player 
+
 {
 	private static int money;
 	private static String name;
@@ -44,4 +45,3 @@ public class Player
 		this.movementDirection *= -1;
   }
 }
-
