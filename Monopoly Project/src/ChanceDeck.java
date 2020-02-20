@@ -8,7 +8,7 @@ public class ChanceDeck
 	
 	public static void chanceDeck()
 	{
-<<<<<<< HEAD
+
 //		tileNames.add("Advance to Go, collect $200");
 //		tileNames.add("Advance to St. Charles Place- if you pass Go collect $200");
 //		tileNames.add("Advance to St. Charles Place- if you pass Go collect $200");
@@ -37,7 +37,7 @@ public class ChanceDeck
 			
 			
 			
-=======
+
 		
 		chanceCards.add("Advance to Go, collect $200");
 		chanceCards.add("Advance to St. Charles Place- if you pass Go collect $200");
@@ -58,8 +58,7 @@ public class ChanceDeck
 		chanceCards.add("Your building and loan matures- collect $150");
 		chanceCards.add("You have won a crossword competition- collect $100");
 				
->>>>>>> upstream/master
-		
+
 		
 	}
 	
