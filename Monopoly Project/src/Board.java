@@ -17,12 +17,12 @@ public class Board
 		public static Tile[] board = new Tile[40];
 		static boolean isLoaded = false;
 		
-		public static Tile getBoard(int currentPlace){
+		public static Tile[] getBoard(){
 			if(!isLoaded){
 				loadBoard();
 			}
 			
-			return board[currentPlace];
+			return board;
 			
 		}
 		
@@ -52,8 +52,8 @@ public class Board
 								board[i] = new GO();
 								break;
 								
-							case "CommunityChest":
-								board[i] = new CommunityChest();
+							case "Chance":
+								board[i] = new ChanceCards();
 								break;
 								
 							case "Tax":
@@ -64,8 +64,8 @@ public class Board
 								board[i] = new Railroad(line[1],  Integer.parseInt(line[2]));
 								break;
 								
-							case "Chance":
-								board[i] = new Chance();
+							case "Chance (again)":
+								board[i] = new ChanceCards();
 								break;
 								
 							case "Jail":

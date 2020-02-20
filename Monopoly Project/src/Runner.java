@@ -27,15 +27,16 @@ public class Runner
 
 		{
 			Directions.howToPlay();
-			//Playing.playing();
+			Playing.playing();
 			System.out.println();
 			Dice.rollDice();
+			Board.loadBoard();
 		}
 		else
 		{
 			Playing.playing();
 			Dice.rollDice();
-			
+			Board.loadBoard();
 		}
 
 			
