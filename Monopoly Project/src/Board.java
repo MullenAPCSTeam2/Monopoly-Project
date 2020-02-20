@@ -17,12 +17,12 @@ public class Board
 		public static Tile[] board = new Tile[40];
 		static boolean isLoaded = false;
 		
-		public static Tile[]getBoard(){
+		public static Tile getBoard(int currentPlace){
 			if(!isLoaded){
-			loadBoard();
+				loadBoard();
 			}
 			
-			return board;
+			return board[currentPlace];
 			
 		}
 		
@@ -119,7 +119,7 @@ public class Board
 			board[4] = new Tax("Income Tax");
 			board[5] = new Railroad("Reading Railroad", 60);
 			board[6] = new Property("Oriental Avenue", 100, "Light Blue");
-			board[7] = new Chance();
+			board[7] = new ChanceCards();
 			board[8] = new Property("Vermont Avenue", 100, "Light Blue");
 			board[9] = new Property("Connecticut Avenue", 120, "Light Blue");
 			board[10] = new Jail();
@@ -134,7 +134,7 @@ public class Board
 			board[19] = new Property("New York Avenue", 200, "Orange");
 			board[20] = new FreeParking();
 			board[21] = new Property("Kentucky Avenue", 220, "Red");
-			board[22] = new Chance();
+			board[22] = new ChanceCards();
 			board[23] = new Property("Indiana Avenue", 220, "Red");
 			board[24] = new Property("Illinois Avenue", 240, "Red");
 			board[25] = new Railroad("B & O Railroad", 200);
@@ -148,11 +148,19 @@ public class Board
 			board[33] = new ChanceCards();
 			board[34] = new Property("Penneylvania Avenue", 320, "Green");
 			board[35] = new Railroad("Short Line", 200);
-			board[36] = new Chance();
+			board[36] = new ChanceCards();
 			board[37] = new Property("Park Place", 350, "Blue");
 			board[38] = new Tax("Luxary Tax");
 			board[39] = new Property("Boardwalk", 400, "Blue");
+
+			
+		
+			
+					
+			
+
 		}
+
 			
 			
 			
