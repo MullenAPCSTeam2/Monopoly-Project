@@ -5,7 +5,7 @@ public class Intro
 
 		public static void main(String[] args)
 			{
-				// TODO Auto-generated method stub
+				Intro.getNames();
 
 			}
 public static void getNames() {
@@ -13,15 +13,17 @@ public static void getNames() {
 	System.out.println("How many people are playing only a max of 4 can play");
 	
 	int userInput = askTotal.nextInt();
-	int people[] = new int[userInput];
+	String people[] = new String[userInput];
 	System.out.println("you have " + userInput + " total players");
 	Scanner askPlayer = new Scanner(System.in);
 
 	
-	for(int i =0; i<people.length;i++) {
-		System.out.println("what are the player's names");
-		
-		people[i] =askTotal.nextInt();
+	for(String n:people) {
+		System.out.println("who are the people playing");
+		String players=askPlayer.nextLine();
+		System.out.println(players);
+		System.out.println(n);
 	}
+	
 }
 	}
