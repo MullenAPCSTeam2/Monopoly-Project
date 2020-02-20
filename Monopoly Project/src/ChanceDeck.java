@@ -36,7 +36,6 @@ public class ChanceDeck
 			
 			
 			
-			
 
 		
 		chanceCards.add("Advance to Go, collect $200");
@@ -57,7 +56,6 @@ public class ChanceDeck
 		chanceCards.add("You have been elected Chairman of the Board- pay $50 to each player");
 		chanceCards.add("Your building and loan matures- collect $150");
 		chanceCards.add("You have won a crossword competition- collect $100");
-				
 
 		
 	}

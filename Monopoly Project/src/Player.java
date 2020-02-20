@@ -1,7 +1,6 @@
 
+public class Player 
 
-
-public class Player
 {
 	private static int money;
 	private static String name;
