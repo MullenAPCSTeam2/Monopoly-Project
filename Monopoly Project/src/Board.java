@@ -165,6 +165,11 @@ public class Board
 			
 
 		}
+		
+		public static Tile getTile(int position)
+		{
+			return board[position];
+		}
 
 			
 			

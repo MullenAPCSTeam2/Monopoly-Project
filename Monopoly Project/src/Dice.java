@@ -1,7 +1,7 @@
 
 public class Dice 
 {
-	public static void rollDice() 
+	public static int rollDice() 
 	{
 		int die1 = (int)(Math.random()*6) + 1;
 		int die2 = (int)(Math.random()*6) + 1;
@@ -33,6 +33,6 @@ public class Dice
 				
 			}	
 			
-			
+			return totalDie;
 	}		
 }

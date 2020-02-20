@@ -1,4 +1,3 @@
-import javax.smartcardio.Card;
 
 public class Deck
 	{

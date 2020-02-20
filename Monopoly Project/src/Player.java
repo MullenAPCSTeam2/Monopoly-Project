@@ -6,13 +6,15 @@ public class Player
 	private static String name;
 	private static String piece;
 	protected int   movementDirection;
+	public static int position;
 
 	
-	public Player(int m, String n, String p)
+	public Player(int m, String n, String p, int pos)
 	{
 		setMoney(m);
 		setName(n);
 		setPiece(p);
+		setPosition(pos);
 		this.movementDirection = 1;
 
 	}
@@ -41,6 +43,18 @@ public class Player
 	public static void setPiece(String piece) {
 		Player.piece = piece;
   }
+	public static int getPosition() {
+		return position;
+	}
+	public static void setPosition(int position) {
+		Player.position = position;
+	}
+	
+	public static int changePosition(int roll) {
+		position += roll;
+		return position;
+	}
+	
 
 	public void switchDirection(){
 		this.movementDirection *= -1;
