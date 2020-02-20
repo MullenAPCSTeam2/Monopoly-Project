@@ -22,7 +22,8 @@ public static void getNames() {
 		System.out.println("who are the people playing");
 		String players=askPlayer.nextLine();
 		System.out.println(players);
-		System.out.println(n);
+		
+		
 	}
 	
 }
