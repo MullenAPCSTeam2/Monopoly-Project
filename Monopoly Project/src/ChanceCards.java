@@ -12,8 +12,11 @@ public class ChanceCards extends EventTile
 	@Override
 	public void triggerEvent()
 		{
-		System.out.println("You Landed on Chance! you must draw!");
+		System.out.println("You Landed on Chance! You must draw!");
 	//	System.out.println(Deck.print());
+		
+		ChanceDeck.printCard();
+		
 			
 		}
 	

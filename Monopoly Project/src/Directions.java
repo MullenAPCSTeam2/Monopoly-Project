@@ -13,10 +13,7 @@ public class Directions
 	{
 	static JFrame frame = new JFrame();
 
-		public static void howToPlay() throws FileNotFoundException, IOException 
-		{
-			
-			try(BufferedReader bufferedReader = new BufferedReader(new FileReader("MonopolyDirections.txt")))
+	
 
 		public static void howToPlay() throws FileNotFoundException, IOException
 		{
@@ -28,8 +25,7 @@ public class Directions
 				while((line = bufferedReader.readLine()) != null)
 				{
 
-					JOptionPane.showMessageDialog(frame, line);
-
+					
 					System.out.println(line);
 
 				}
@@ -37,5 +33,11 @@ public class Directions
 
 			
 		}
+//		The Bank: 
+//			1) The bank pays salaries.
+//			2) The bank collects mortgages with interest when players mortgage their property.
+//			3) The bank also prices all properties and monitors selling and auctioning of properties. 
+//			4) The bank will not run out of money. 
+
 
 	}

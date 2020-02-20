@@ -30,6 +30,9 @@ public class Dice
 			else
 			{
 				System.out.println("You roll a " + die1 + " and " + die2 +".\nMove " + totalDie + " spaces.");
+				
 			}	
+			
+			
 	}		
 }

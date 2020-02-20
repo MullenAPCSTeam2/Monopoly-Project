@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 public class Player 
 {
@@ -35,6 +36,8 @@ public class Player
 }
 
 
+=======
+>>>>>>> upstream/master
 public class Player 
 {
 	private static int money;
@@ -81,4 +84,4 @@ public class Player
 		this.movementDirection *= -1;
   }
 }
->>>>>>> upstream/master
+
