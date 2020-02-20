@@ -21,8 +21,10 @@ public static void getNames() {
 	for(String n:people) {
 		System.out.println("who are the people playing");
 		String players=askPlayer.nextLine();
-		System.out.println(players);
-		
+		//test
+		for(String s:people) {
+			System.out.println(s);
+		}
 		
 	}
 	
