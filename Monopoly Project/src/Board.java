@@ -88,6 +88,7 @@ public class Board
 								break;
 								
 							default:
+								System.out.println(line[0]);
 								System.out.println("Something went terribly wrong while loading the board...");
 								
 							
