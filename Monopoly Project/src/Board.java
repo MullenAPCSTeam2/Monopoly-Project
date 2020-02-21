@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 import java.util.concurrent.PriorityBlockingQueue;
@@ -6,6 +7,10 @@ import java.util.concurrent.PriorityBlockingQueue;
 
 
 
+=======
+
+
+>>>>>>> upstream/master
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -50,7 +55,7 @@ public class Board
 					
 					for(int i = 0; i < 40; i ++){
 						String[] line = reader.readLine().split(", ");
-						System.out.println(i + ": " + line[0]);
+//						System.out.println(i + ": " + line[0]);
 						switch(line[0]){
 							
 							case "Property":
@@ -94,6 +99,7 @@ public class Board
 								break;
 								
 							default:
+								System.out.println(line[0]);
 								System.out.println("Something went terribly wrong while loading the board...");
 								
 							
@@ -170,6 +176,11 @@ public class Board
 					
 			
 
+		}
+		
+		public static Tile getTile(int position)
+		{
+			return board[position];
 		}
 
 			

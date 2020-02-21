@@ -16,5 +16,5 @@ public abstract class Tile
 			return this.tileName;
 		}
 		
-		
+		//suggestion: make a public void that sysos all of the info not individual info 
 	}
