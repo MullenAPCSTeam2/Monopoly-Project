@@ -5,7 +5,7 @@ public class Player
 	private static int money;
 	private static String name;
 	private static String piece;
-	protected int   movementDirection;
+	public static int  movementDirection;
 	public static int position;
 
 	
@@ -51,7 +51,7 @@ public class Player
 	}
 	
 	public static int changePosition(int roll) {
-		position += roll;
+		position += roll*movementDirection;
 		return position;
 	}
 	
