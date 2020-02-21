@@ -8,27 +8,30 @@ public class SetUpPlayer
 		ArrayList<Player> playing = new ArrayList<Player>();
 		playing.add(new Player (1500, "", "", 0));
 		
+		Scanner intInput = new Scanner(System.in);
+		System.out.println("What monopoly theme do you want to play?\n1.Classic Monopoly\n2.Star Wars Monopoly");
+		int monopolyTheme = intInput.nextInt();
+		
+		for (Player p : playing)
+		{
 		Scanner stringInput = new Scanner(System.in);
 		System.out.println("\nWhat is your name?");
 		String name = stringInput.nextLine();
 		
-		for (Player p : playing)
-		{
+		
 			p.setName(name);
 			System.out.println("\nHello, " + p.getName() + ".\nYou start with $" + p.getMoney() + ".\n");
-		}
 		
-		Scanner intInput = new Scanner(System.in);
-		System.out.println("What monopoly theme do you want to play?\n1.Classic Monopoly\n2.Star Wars Monopoly");
-		int monopolyTheme = intInput.nextInt();
+		
+		
 		
 		if(monopolyTheme == 1)
 		{
 			System.out.println("\nWhat monopoly piece do you want to play as?\n1.Iron\n2.Top Hat\n3.Thimble\n4.Boot\n5.Wheelbarrow\n6.Car\n7.Battleship\n8.Dog");
 			int classicPiece = intInput.nextInt();
 		
-			for(Player p : playing)
-			{
+			
+			
 				if(classicPiece == 1)
 				{
 					p.setPiece("Iron");
