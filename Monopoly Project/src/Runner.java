@@ -1,12 +1,14 @@
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Runner
 	{
 	static Scanner userInput = new Scanner(System.in);
 	static int choice = 0;
+	static ArrayList<Player> players = new ArrayList<Player>();
+	static Player currentPlayer;
 
 	public static void main(String[] args) throws IOException
 
@@ -34,8 +36,25 @@ public class Runner
 			Dice.rollDice();
 			
 		}
+		
+		
+		
+		
+		//running the game
+		
+		players = Playing.playing;
+		currentPlayer = players.get(0);
+		
+		
 
 			
 		}
+	
+	public static void nextPlayer(){
+		int index = players.indexOf(currentPlayer);
+		index %= players.size();
+		currentPlayer = players.get(index);
+	}
+	
 		
 	}
