@@ -17,6 +17,48 @@ public abstract class PurchasableTile extends Tile
 		
 		
 
+		public boolean isPurchased()
+			{
+				return purchased;
+			}
+
+
+
+		public void setPurchased(boolean purchased)
+			{
+				this.purchased = purchased;
+			}
+
+
+
+		public int getRentCost()
+			{
+				return rentCost;
+			}
+
+
+
+		public void setRentCost(int rentCost)
+			{
+				this.rentCost = rentCost;
+			}
+
+
+
+		public int getCost()
+			{
+				return cost;
+			}
+
+
+
+		public void setCost(int cost)
+			{
+				this.cost = cost;
+			}
+
+
+
 		@Override
 		public void landOnTile(){
 			if(purchased = false) {
