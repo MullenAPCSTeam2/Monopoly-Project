@@ -7,6 +7,7 @@ public class FreeParking extends EventTile
 		}
 		
 		
+<<<<<<< HEAD
 	//@Override
 	public void triggerEvent(Player player1)
 		{
@@ -16,6 +17,24 @@ public class FreeParking extends EventTile
 			player1.switchDirection();
 			
 		}
+=======
+//	//@Override
+//	public void triggerEvent(Player player1)
+//		{
+//			//TODO player.switchDirection();
+//		
+//		
+//			player1.switchDirection();
+//			
+//		}
+
+// this is the appendix:
+	@Override
+	public void triggerEvent() {
+		Runner.currentPlayer.switchDirection();
+		
+	}
+>>>>>>> upstream/master
 
 // this is the appendix:
 	@Override
