@@ -1,15 +1,19 @@
 
 public class Railroad extends PurchasableTile
 	{
-
-	public Railroad(String tileName, int cost)
+protected int totalOwned;
+	public Railroad(String tileName, int cost,boolean purchased, int rC, int tO)
 		{
-			super(tileName, cost);
-			cost = 200;
-			tileName = "Pennsylvania Railroad";
-			tileName=" B&O Railroad";
-			tileName= "Reading Railroad";
-			tileName= "Short Line";
+			super(tileName, cost, purchased,rC);
+			totalOwned=tO;
+		}
+	public int getTotalOwned()
+		{
+			return totalOwned;
+		}
+	public void setTotalOwned(int totalOwned)
+		{
+			this.totalOwned = totalOwned;
 		}
 
 	}

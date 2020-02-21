@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
 import java.util.concurrent.PriorityBlockingQueue;
@@ -7,10 +7,7 @@ import java.util.concurrent.PriorityBlockingQueue;
 
 
 
-=======
 
-
->>>>>>> upstream/master
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;

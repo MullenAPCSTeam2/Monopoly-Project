@@ -6,14 +6,17 @@ public abstract class PurchasableTile extends Tile
 
 
 		protected boolean purchased;
-		protected Player owner;
+		protected int rentCost;
 		protected int cost;
-		public PurchasableTile(String tileName, int cost) {
+		public PurchasableTile(String tileName, int c,boolean p, int r) {
 			super(tileName);
-		this.purchased=false;
-		this.cost=cost;
+		purchased=p;
+		c=cost;
+		rentCost=r;
 		}
 		
+		
+
 		@Override
 		public void landOnTile(){
 			if(purchased = false) {

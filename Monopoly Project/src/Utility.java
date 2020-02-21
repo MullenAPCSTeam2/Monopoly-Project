@@ -1,11 +1,19 @@
 
 public class Utility extends PurchasableTile
 	{
-
-	public Utility(String tileName, int cost)
+protected boolean two;
+	public Utility(String tileName, int cost,boolean purchased,int rC,boolean t)
 		{
-			super(tileName, cost);
-			// TODO Auto-generated constructor stub
+			super(tileName, cost, purchased, rC);
+			two =t;
+		}
+	public boolean isTwo()
+		{
+			return two;
+		}
+	public void setTwo(boolean two)
+		{
+			this.two = two;
 		}
 
 	}
