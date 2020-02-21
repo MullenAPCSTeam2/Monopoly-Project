@@ -42,8 +42,12 @@ public class Runner
 		
 		//running the game
 		
-		players = Playing.playing;
+		//turns
+		players = Playing.getPlaying();
 		currentPlayer = players.get(0);
+		
+		
+		
 		
 		
 
