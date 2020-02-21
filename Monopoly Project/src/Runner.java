@@ -9,6 +9,7 @@ public class Runner
 	static int choice = 0;
 	static ArrayList<Player> players = new ArrayList<Player>();
 	static Player currentPlayer;
+	static String fake;
 
 	public static void main(String[] args) throws IOException
 
@@ -17,7 +18,7 @@ public class Runner
 	
 		
 		System.out.println("Welcome to Monopoly! Would you like directions?");
-		System.out.println("1) Yes \n2) No");
+		System.out.println("1.Yes \n2.No");
 		choice= userInput.nextInt();
 		
 		if (choice == 1)
@@ -25,16 +26,12 @@ public class Runner
 		{
 			Directions.howToPlay();
 			Playing.playing();
-			System.out.println();
-			Dice.rollDice();
-		
-			
+	
 		}
 		else
 		{
 			Playing.playing();
-			Dice.rollDice();
-			
+		
 		}
 		
 		
@@ -44,6 +41,15 @@ public class Runner
 		
 		players = Playing.playing;
 		currentPlayer = players.get(0);
+		
+		
+		currentPlayer.changePosition(Dice.rollDice());
+		
+		Board.getBoard();
+		System.out.println((Board.getTile(currentPlayer.position)).getName());
+		
+		
+		
 		
 		
 
