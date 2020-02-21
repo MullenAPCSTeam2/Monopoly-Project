@@ -46,6 +46,30 @@ public class Runner
 		players = Playing.getPlaying();
 		currentPlayer = players.get(0);
 		
+		//now for each player
+		boolean playing = true;
+		while(playing){
+			
+			//display current player info
+			currentPlayer.printPlayer();
+			
+			//roll
+			int roll = Dice.rollDice();
+			
+			
+			//jail?
+			
+			//land on tile
+			Player.changePosition(roll);
+			
+			
+			//next turn?
+			
+			
+			
+			
+		}
+		
 		
 		
 		
