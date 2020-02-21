@@ -75,10 +75,6 @@ public class Board
 								board[i] = new Railroad(line[1],  Integer.parseInt(line[2]));
 								break;
 								
-							case "Chance (again)":
-								board[i] = new ChanceCards();
-								break;
-								
 							case "Jail":
 								board[i] = new Jail();
 								break;
