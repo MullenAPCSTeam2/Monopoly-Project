@@ -1,6 +1,6 @@
 
 
-public class PayCard extends Card
+public class PayCard
 	{
 
 //private String text;

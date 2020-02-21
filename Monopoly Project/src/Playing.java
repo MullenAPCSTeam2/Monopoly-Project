@@ -6,7 +6,7 @@ public class Playing
 	public static void playing()
 	{
 		ArrayList<Player> playing = new ArrayList<Player>();
-		playing.add(new Player (1500, "", ""));
+		playing.add(new Player (1500, "", "", 0));
 		
 		Scanner stringInput = new Scanner(System.in);
 		System.out.println("\nWhat is your name?");

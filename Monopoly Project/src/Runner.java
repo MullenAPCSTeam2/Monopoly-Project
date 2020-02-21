@@ -12,12 +12,7 @@ public class Runner
 
 		{
 
-			//Directions.howToPlay();
-			//Dice.rollDice();
-		//how to print board: 
-		//now connect dice to number in board for printing:
-// 			Board.loadBoard();
-// 			System.out.println(Board.board[3].tileName);
+	
 		
 		System.out.println("Welcome to Monopoly! Would you like directions?");
 		System.out.println("1) Yes \n2) No");
@@ -30,13 +25,14 @@ public class Runner
 			Playing.playing();
 			System.out.println();
 			Dice.rollDice();
-			Board.loadBoard();
+		
+			
 		}
 		else
 		{
 			Playing.playing();
 			Dice.rollDice();
-			Board.loadBoard();
+			
 		}
 
 			
