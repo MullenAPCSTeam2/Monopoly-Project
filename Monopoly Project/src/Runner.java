@@ -60,7 +60,9 @@ public class Runner
 			//jail?
 			
 			//land on tile
-			Player.changePosition(roll);
+			currentPlayer.changePosition(roll);			
+			Board.getBoard()[currentPlayer.getPosition()].landOnTile();
+			
 			
 			
 			//next turn?

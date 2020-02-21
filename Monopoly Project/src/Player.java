@@ -59,6 +59,11 @@ public class Player
 		if(position >= 40){
 		position %= 40;
 			Runner.currentPlayer.addMoney(200);
+			System.out.println("You pass GO, collect $200.");
+		}else if(position < 0){
+			position+=40;
+			Runner.currentPlayer.addMoney(200);
+			System.out.println("You pass GO, collect $200.");
 		}
 		return position;
 	}
@@ -69,7 +74,7 @@ public class Player
   }
 	
 	public void printPlayer(){
-		
+		System.out.println("-=-=-=-=-");
 		System.out.println(this.name + ":" + this.piece);
 		System.out.println("$"+this.money);
 		
