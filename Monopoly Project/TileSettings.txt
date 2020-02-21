@@ -1,6 +1,6 @@
 GO
 Property, "Mediterranian Avenue", 60, "Purple"
-CommunityChest
+Chance
 Property, "Baltic Avenue", 60, "Purple"
 Tax, "Income Tax"
 Railroad, "Reading Railroad", 60
@@ -15,7 +15,7 @@ Property, "States Avenue", 140, "Pink"
 Property, "Virginia Avenue", 160, "Pink"
 Railroad, "Pennsylvania Railroad", 200
 Property, "St. James Place", 180, "Orange"
-CommunityChest
+Chance
 Property, "Tennessee Avenue", 180, "Orange"
 Property, "New York Avenue", 200, "Orange"
 FreeParking
@@ -31,7 +31,7 @@ Property, "Marvin Gardens", 280, "Yellow"
 GoToJail
 Property, "Pacific Avenue", 300, "Green"
 Property, "North Carolina Avenue", 300, "Green"
-CommunityChest
+Chance
 Property, "Penneylvania Avenue", 320, "Green"
 Railroad, "Short Line", 200
 Chance
