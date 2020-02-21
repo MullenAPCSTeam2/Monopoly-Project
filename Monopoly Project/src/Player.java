@@ -59,4 +59,8 @@ public class Player
 	public void switchDirection(){
 		this.movementDirection *= -1;
   }
+	
+	public void missTurn() {
+		!this.changePosition(position);
+	}
 }
