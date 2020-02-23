@@ -14,7 +14,8 @@ public class Jail extends EventTile
 	@Override
 	public void triggerEvent()
 		{
-			// TODO Auto-generated method stub
+		System.out.println("You have skipped your turn");
+			Runner.currentPlayer.setPosition(30);
 			
 		}
 
