@@ -1,0 +1,40 @@
+GO
+Property, "X-34 Landspeeder", 60, "Purple"
+CommunityChest
+Property, "TIE Fighter", 60, "Purple"
+Tax, "Imperial tax"
+Railroad, "X-wing Starfighter", 60
+Property, "Republic Attack Cruiser", 100, "Light Blue"
+Chance
+Property, "Naboo N1 Starfighter", 100, "Light Blue"
+Property, "Imperial Shuttles", 120, "Light Blue"
+Jail
+Property, "Anakin Skywalker's Podracer", 140, "Pink"
+Utility, "Jawas", 150
+Property, "All Terrain Armored Transports", 140, "Pink"
+Property, "Katooni", 160, "Pink"
+Railroad, "Kuat Orbital Ring", 200
+Property, "Yeager", 180, "Orange"
+CommunityChest
+Property, "Stealth Ship", 180, "Orange"
+Property, "Zygerrian", 200, "Orange"
+FreeParking
+Property, "Imperial Cargo Ship", 220, "Red"
+Chance
+Property, "Separatist Supply Ship", 220, "Red"
+Property, "Trade Federation Landing Ship", 240, "Red"
+Railroad, "Centerpoint Station", 200
+Property, "Guavian Death Gang Ship", 260, "Yellow"
+Property, "Gauntlet Fighter", 260, "Yellow"
+Utility, "Ewoks", 150
+Property, "Dalkor Dagger", 280, "Yellow"
+GoToJail
+Property, "Star Destroyer", 300, "Green"
+Property, "Naboo Royal Starship", 300, "Green"
+CommunityChest
+Property, "Super Star Destroyer", 320, "Green"
+Railroad, "Cosmic Turbine", 200
+Chance
+Property, "Millennium Falcon", 350, "Blue"
+Tax, "Jabba the Hutt's Tax"
+Property, "Death Star", 400, "Blue"
