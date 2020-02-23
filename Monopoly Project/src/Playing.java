@@ -1,11 +1,16 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Playing 
-{
+public class Playing{ 
+static ArrayList<Player> playing = new ArrayList<Player>();
+
+
 	public static void playing()
 	{
+<<<<<<< HEAD
 		ArrayList<Player> playing = new ArrayList<Player>();
+=======
+>>>>>>> upstream/master
 		playing.add(new Player (1500, "", "", 0));
 		
 		Scanner stringInput = new Scanner(System.in);
@@ -100,4 +105,18 @@ public class Playing
 		}
 		
 	}
+
+
+	public static ArrayList<Player> getPlaying()
+		{
+			return playing;
+		}
+
+
+	public static void setPlaying(ArrayList<Player> playing)
+		{
+			Playing.playing = playing;
+		}
+	
+	
 }

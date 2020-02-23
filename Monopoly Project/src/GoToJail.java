@@ -8,7 +8,9 @@ public class GoToJail extends EventTile
 	@Override
 	public void triggerEvent()
 		{
-			// TODO Auto-generated method stub
+			System.out.println("You've gone to jail!");
+			int jailPos = Board.tileNames.indexOf("Jail");
+			Runner.currentPlayer.setPosition(jailPos);
 			
 		}
 
