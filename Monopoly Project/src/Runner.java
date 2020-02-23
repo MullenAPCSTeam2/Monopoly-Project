@@ -24,7 +24,7 @@ public class Runner
 
 		{
 			Directions.howToPlay();
-			Playing.playing();
+			SetUpPlayer.setUpPlaying();
 			System.out.println();
 			Dice.rollDice();
 		
@@ -32,7 +32,7 @@ public class Runner
 		}
 		else
 		{
-			Playing.playing();
+			SetUpPlayer.setUpPlaying();
 			Dice.rollDice();
 			
 		}
