@@ -26,24 +26,17 @@ public class Runner
 		{
 			Directions.howToPlay();
 			Playing.playing();
-<<<<<<< HEAD
+
 			System.out.println();
 			Dice.rollDice();
-		
-			
-=======
-	
->>>>>>> upstream/master
+
 		}
 		else
 		{
 			Playing.playing();
-<<<<<<< HEAD
+
 			Dice.rollDice();
-			
-=======
-		
->>>>>>> upstream/master
+
 		}
 		
 		

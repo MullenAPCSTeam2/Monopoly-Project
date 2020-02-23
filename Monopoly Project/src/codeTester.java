@@ -8,14 +8,10 @@ public class codeTester {
 		player1.changePosition(Dice.rollDice());
 		
 		
-		System.out.println(player1.getPosition());
-		Board.loadClassicGame();
-		System.out.println((Board.getTile(player1.position)).getName());
-		
-<<<<<<< HEAD
-=======
-		//tester
->>>>>>> upstream/master
+//		System.out.println(player1.getPosition());
+//		Board.loadClassicGame();
+//		System.out.println((Board.getTile(player1.position)).getName());
+
 
 	}
 

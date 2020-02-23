@@ -7,10 +7,9 @@ static ArrayList<Player> playing = new ArrayList<Player>();
 
 	public static void playing()
 	{
-<<<<<<< HEAD
+
 		ArrayList<Player> playing = new ArrayList<Player>();
-=======
->>>>>>> upstream/master
+
 		playing.add(new Player (1500, "", "", 0));
 		
 		Scanner stringInput = new Scanner(System.in);

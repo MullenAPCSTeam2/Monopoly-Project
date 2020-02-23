@@ -2,19 +2,14 @@
 public class Player 
 
 {
-<<<<<<< HEAD
-	private static int money;
-	private static String name;
-	private static String piece;
-	protected int   movementDirection;
-	public static int position;
-=======
+
+
 	protected int money;
 	protected String name;
 	protected String piece;
 	protected int  movementDirection;
 	protected int position;
->>>>>>> upstream/master
+
 
 	
 	public Player(int m, String n, String p, int pos)
@@ -55,17 +50,7 @@ public class Player
 	public void setPiece(String piece) {
 		this.piece = piece;
   }
-<<<<<<< HEAD
-	public static int getPosition() {
-		return position;
-	}
-	public static void setPosition(int position) {
-		Player.position = position;
-	}
-	
-	public static int changePosition(int roll) {
-		position += roll;
-=======
+
 	public int getPosition() {
 		return this.position;
 	}
@@ -84,7 +69,7 @@ public class Player
 			Runner.currentPlayer.addMoney(200);
 			System.out.println("You pass GO, collect $200.");
 		}
->>>>>>> upstream/master
+
 		return position;
 	}
 	
