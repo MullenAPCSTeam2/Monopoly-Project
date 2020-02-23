@@ -25,12 +25,19 @@ public class Runner
 
 		{
 			Directions.howToPlay();
-			Playing.playing();
-	
+
+			SetUpPlayer.setUpPlaying();
+			System.out.println();
+// 			Dice.rollDice();
+		
+			
 		}
 		else
 		{
-			Playing.playing();
+			SetUpPlayer.setUpPlaying();
+// 			Dice.rollDice();
+			
+
 		
 		}
 		
@@ -67,24 +74,14 @@ public class Runner
 			
 			
 			
+		
 		}
 		
 		
 		
 		
 		
-		currentPlayer.changePosition(Dice.rollDice());
-		
-		Board.getBoard();
-		System.out.println((Board.getTile(currentPlayer.position)).getName());
-		
-		
-		
-		
-		
-
-			
-		}
+	}
 	
 	public static void nextPlayer(){
 		int index = players.indexOf(currentPlayer);
@@ -93,4 +90,4 @@ public class Runner
 	}
 	
 		
-	}
+}
