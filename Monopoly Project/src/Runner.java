@@ -35,7 +35,9 @@ public class Runner
 		else
 		{
 			SetUpPlayer.setUpPlaying();
+
 // 			Dice.rollDice();
+
 			
 
 		

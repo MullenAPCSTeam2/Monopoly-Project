@@ -3,11 +3,13 @@ import java.util.Scanner;
 
 public class SetUpPlayer 
 {
+
 	static ArrayList<Player> playing = new ArrayList<Player>();
 
 	
 	public static void setUpPlaying()
 	{
+
 		playing.add(new Player (1500, "", "", 0));
 		
 		Scanner intInput = new Scanner(System.in);
@@ -82,13 +84,12 @@ public class SetUpPlayer
 					System.out.println("You selected the " + p.getPiece() + ".");
 				}
 			}
-		
 		else if(monopolyTheme == 2)
 		{
 			System.out.println("\nWho do you want to play as?\n1.Luke Skywalker\n2.Darth Vader\n3.Obi Wan Kenobi\n4.Kylo Ren\n5.Yoda\n6.Palpatine\n7.Chewbacca\n8.R2-D2");
 			int starWarsPiece = intInput.nextInt();
 		
-			
+
 				if(starWarsPiece == 1)
 				{
 					p.setPiece("Luke Skywalker");
@@ -139,6 +140,7 @@ public class SetUpPlayer
 			}
 		}
 	}
+
 	
 	public static ArrayList<Player> getPlaying()
 		{
@@ -151,4 +153,5 @@ public class SetUpPlayer
 			Playing.playing = playing;
 		}
 }
+
 
