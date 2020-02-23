@@ -4,9 +4,9 @@ Components of the Game:
 3) Two dice that the computer rolls when commanded.
 4) Tokens for each player. 
 5) 32 houses and 12 hotels.
-6) 16 Chance and 16 Community Chest cards.
+6) 16 Chance cards (this version of Monopoly has no Community Chest Cards).
 7) 28 Title Deed cards for each property. 
-8) Money (held in the computer-run bank).
+8) Money (this version of Monopoly has no Bank because the computer is the Bank).
 
 Object of the Game: to become the wealthiest player through buying, renting, and selling property as well as forcing 
 other players into bankruptcy. 
@@ -18,9 +18,9 @@ The Board has Chance and Community Chest cards face down on their alloted spaces
 3) Each player is given $1500 which is divided like so: 2 $500s, 2 $100s, 2 $50s, 6 $20s, 5 $10s, 5 $5s, and 5 $1s.
 
 Buying Property: 
-1) When land on unknown property, a player can buy that property from the Bank. 
+1) When land on unknown property, a player can buy that property. 
 2) Once doing this, the player receives the Title Deed card. 
-3) If a player does not wish to buy the property, the Bank sells the property through an auction to the highest bidder. 
+3) If a player does not wish to buy the property, the property goes to auction to the highest bidder. 
 Bidding may start at any price and any player may bid. 
 
 Paying Rent:
@@ -51,24 +51,23 @@ The player landing on it doesn't receive money, property, reward, or penalty of 
  a player lands on this space. A player can switch directions multiple times. 
 
 Houses and Hotels:
-1) When a player owns all the properties in a color-group, the player can buy houses from the Bank.
+1) When a player owns all the properties in a color-group, the player can buy houses.
 2) A player may buy as many houses as they want, but they cannot erect more than one house on any one property
 of any color-group until they have built one house on every property of that group.
 3) The price for each house is on the Title Deed card for the property the house is erected on.
 4) The owner still collects double rent from an opponent who lands on the unimproved properties of the owner's complete color-group.
-5) When a player has 4 houses on each property of a complete color-group, they may buy a hotel from the Bank. 
+5) When a player has 4 houses on each property of a complete color-group, they may buy a hotel. 
 6) Only one hotel may be erected on any one property. 
 
 Building Shortages:
-1) When the Bank has no more houses to sell, players must wait for a player to return or sell their houses to the Bank. 
-2) If there are a limited number of houses or hotels available and two or more players want to buy more than is available,
-the Bank will sell the houses/hotels at auction to the highest bidder. 
+1) If there are a limited number of houses or hotels available and two or more players want to buy more than is available,
+ the houses/hotels at auction to the highest bidder. 
 
 Selling Property:
 1) Unimproved properties, railroads, and utilities may be sold to any player as a private transaction for any amount the 
 owner can get. 
 2) Properties cannot be sold to another player if buildings are standing on any properties of that color-group. 
-3) Buildings must be sold back to the Bank before the owner can sell any property of that color-group. 
+3) Buildings must be sold before the owner can sell any property of that color-group. 
 4) Houses and hotels can be sold back to the bank at any time for one-half the price paid for them. 
 
 Mortgages:
@@ -77,33 +76,27 @@ Title Deed card.
 2) If a property has buildings, the buildings must be sold back to the Bank at half price before the property can
 be mortgaged. 
 3) No rent can be collected on mortgaged properties or utilities. 
-4) The owner must pay the Bank the amount of the mortgage with a 10% interest to lift a mortgage. 
+4) The owner must pay the amount of the mortgage with a 10% interest to lift a mortgage. 
 5) When all properties of a color-group are no longer mortgaged, the owner may begin buying back houses
 and hotels. 
 6) The player who mortgages property retains possession of it, no other player may secure the property nor 
-lift the mortgage from the Bank. 
+lift the mortgage. 
 7) The owner may sell the mortgaged property to another player at any agreed price. The new owner still follows the rules 
 for lifting the mortgage (4).
 
 Bankruptcy:
-1) A player is bankrupt if they owe more than they can pay to either another player or the Bank. 
+1) A player is bankrupt, they lose the game. 
 2) If a player's debt is to another player they must turn over everything they have to that player.
-If you own houses and hotels you must return them to the Bank in exchange for money (to the extend of 
-1/2 the amount paid for the houses and hotels) to give to the creditor. If the player has mortgaged property 
-they also turn the property over to the creditor. The new owner must pay the 10% interest on the 
-property to the Bank. 
-3) If a player's debt is to the bank, the player must turn over all assets to the Bank. The Bank immediately
-sells, by auction, all property except the buildings. 
-4) Money can be loaned to a player only by the Bank (by mortgaging property) and no other player may borrow 
-from or lend money to another player. 
+ If the player has mortgaged property they also turn the property over to the creditor. 
+ The new owner must pay the 10% interest on the property. 
 
 How to Play: 
 1) Each player will roll the dice to see who goes first. The player with the highest sum of the dice goes first
 (in the case of a tie, the younger of the two goes first). Then the other players follow in a clockwise direction. 
 2) Each player's token begins at "GO". A player rolls the dice, adds the total, and moves that many spaces on the board. 
 Two or more tokens may rest on the same space at the same time. 
-3) Depending on the space landed on, a player may buy property, pay rent, draw a Chance or Community Chest card,
+3) Depending on the space landed on, a player may buy property, pay rent, draw a Chance card,
 or go to Jail. 
 4) If your die roll the same number, you get to play another turn and roll again. If you roll the same number three times 
 in a row you go straight to jail. 
-5) Each time a player's token lands on or passes over "GO", the Bank pays the player a $200 salary. 
+5) Each time a player's token lands on or passes over "GO", the player gets $200. 
