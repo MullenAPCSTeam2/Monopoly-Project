@@ -8,7 +8,7 @@ static ArrayList<Player> playing = new ArrayList<Player>();
 	public static void playing()
 	{
 
-		ArrayList<Player> playing = new ArrayList<Player>();
+	//	ArrayList<Player> playing = new ArrayList<Player>();
 
 		playing.add(new Player (1500, "", "", 0));
 		
