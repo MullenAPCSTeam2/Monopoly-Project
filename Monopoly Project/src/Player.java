@@ -72,7 +72,7 @@ public class Player
 	public void switchDirection(){
 		this.movementDirection *= -1;
   }
-	
+
 	public void printPlayer(){
 		System.out.println("-=-=-=-=-");
 		System.out.println(this.name + ":" + this.piece);
@@ -80,4 +80,5 @@ public class Player
 		
 	}
 	
+
 }

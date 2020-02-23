@@ -12,6 +12,7 @@ public class codeTester {
 		Board.loadClassicGame();
 		System.out.println((Board.getTile(player1.position)).getName());
 		
+		//tester
 
 	}
 
