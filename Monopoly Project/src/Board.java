@@ -44,7 +44,7 @@ public class Board
 					
 					for(int i = 0; i < 40; i ++){
 						String[] line = reader.readLine().split(", ");
-						System.out.println(i + ": " + line[0]);
+//						System.out.println(i + ": " + line[0]);
 						switch(line[0]){
 							
 							case "Property":
@@ -67,10 +67,6 @@ public class Board
 								board[i] = new Railroad(line[1],  Integer.parseInt(line[2]));
 								break;
 								
-							case "Chance (again)":
-								board[i] = new ChanceCards();
-								break;
-								
 							case "Jail":
 								board[i] = new Jail();
 								break;
@@ -88,6 +84,7 @@ public class Board
 								break;
 								
 							default:
+								System.out.println(line[0]);
 								System.out.println("Something went terribly wrong while loading the board...");
 								
 							

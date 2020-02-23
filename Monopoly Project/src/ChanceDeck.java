@@ -62,6 +62,7 @@ public class ChanceDeck
 	
 	public static void printCard()
 	{
+		chanceDeck();
 		int randomDraw = (int) Math.random()*16 +1;
 		chanceCards.get(randomDraw);
 		System.out.println(chanceCards);
