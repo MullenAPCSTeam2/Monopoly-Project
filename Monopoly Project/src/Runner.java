@@ -69,7 +69,7 @@ public class Runner
 			
 			//land on tile
 			currentPlayer.changePosition(roll);			
-
+			Board.getBoard()[currentPlayer.getPosition()].printName();
 			Board.getBoard()[currentPlayer.getPosition()].landOnTile();
 			//Board.getBoard();
 			Board.getTile(currentPlayer.position).getName();

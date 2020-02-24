@@ -14,6 +14,7 @@ public class codeTester {
 		{
 		
 		Runner.currentPlayer = player1;
+		Runner.currentPlayer.printPlayer();
 		Runner.currentPlayer.changePosition(Dice.rollDice());
 		System.out.println(Runner.currentPlayer.getPosition());
 		Board.loadClassicGame();
