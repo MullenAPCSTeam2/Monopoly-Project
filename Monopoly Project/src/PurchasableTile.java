@@ -20,8 +20,16 @@ public abstract class PurchasableTile extends Tile
 			}
 
 		@Override
+		public void landOnTile(){
+			if(purchased == false) {
+			System.out.println("You landed on: " + tileName);
+			System.out.println("Would you like to buy " + tileName + "? It costs: $" + cost +
+					"\n1.Yes 2.No");
+			choice = userInput.nextInt();
 
-		public void landOnTile()
+			
+			if (choice == 1)
+
 			{
 				if (purchased == false)
 					{
