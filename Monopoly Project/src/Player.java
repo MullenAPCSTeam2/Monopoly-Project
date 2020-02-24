@@ -2,11 +2,14 @@
 public class Player 
 
 {
+
+
 	protected int money;
 	protected String name;
 	protected String piece;
 	protected int  movementDirection;
 	protected int position;
+
 
 	
 	public Player(int m, String n, String p, int pos)
@@ -47,6 +50,7 @@ public class Player
 	public void setPiece(String piece) {
 		this.piece = piece;
   }
+
 	public int getPosition() {
 		return this.position;
 	}
@@ -65,6 +69,7 @@ public class Player
 			Runner.currentPlayer.addMoney(200);
 			System.out.println("You pass GO, collect $200.");
 		}
+
 		return position;
 	}
 	
@@ -80,5 +85,18 @@ public class Player
 		
 	}
 	
-
+	
+	public boolean endCondition() {
+		
+		if (money <= 0) {
+		System.out.println("You have gone bankrupt- you lose.");
+		System.exit(0);
+		return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	
 }
