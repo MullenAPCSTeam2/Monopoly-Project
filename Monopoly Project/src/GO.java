@@ -1,23 +1,16 @@
 
-public  class GO extends EventTile
+public class GO extends EventTile
 	{
-		
-	public GO()
-		{
-			super("GO");
-			// TODO Auto-generated constructor stub
-		}
 
-	
-	public void triggerEvent()
-		{
-			
+		public GO()
+			{
+				super("GO");
+				// TODO Auto-generated constructor stub
+			}
 
+		public void triggerEvent()
+			{
 
-		
-
-
-
-		}
+			}
 
 	}

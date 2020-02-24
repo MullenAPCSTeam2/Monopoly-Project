@@ -1,21 +1,18 @@
 
-public  class CommunityChest extends EventTile
+public class CommunityChest extends EventTile
 	{
 
-	public CommunityChest(String tileName)
-		{
-			super("community chest");
-			// TODO Auto-generated constructor stub
-		}
+		public CommunityChest(String tileName)
+			{
+				super("community chest");
+				// TODO Auto-generated constructor stub
+			}
 
-	@Override
-	public void triggerEvent()
-		{
-			// TODO Auto-generated method stub
-			
-		}
+		@Override
+		public void triggerEvent()
+			{
+				// TODO Auto-generated method stub
 
-
-
+			}
 
 	}

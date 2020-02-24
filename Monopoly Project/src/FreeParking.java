@@ -2,9 +2,10 @@
 public class FreeParking extends EventTile
 	{
 
-		public FreeParking(){
-			super("FreeParking");
-		}
+		public FreeParking()
+			{
+				super("FreeParking");
+			}
 
 //	//@Override
 //	public void triggerEvent(Player player1)
@@ -17,13 +18,12 @@ public class FreeParking extends EventTile
 //		}
 
 // this is the appendix:
-	@Override
-	public void triggerEvent() {
-		Runner.currentPlayer.switchDirection();
-		System.out.println("You switch the direction you move!");
-		
-	}
+		@Override
+		public void triggerEvent()
+			{
+				Runner.currentPlayer.switchDirection();
+				System.out.println("You switch the direction you move!");
 
-
+			}
 
 	}

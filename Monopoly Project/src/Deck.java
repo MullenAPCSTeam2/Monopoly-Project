@@ -1,13 +1,15 @@
 
 public class Deck
 	{
-		  private Card[] cards= new Card[20];// my card array
-		    private int index = 0;
-		    private boolean chanceDeck;
-		    private int total;
-	public Deck(boolean chanceDeck)
-		{
-			if(chanceDeck==false) {
+		private Card[] cards = new Card[20];// my card array
+		private int index = 0;
+		private boolean chanceDeck;
+		private int total;
+
+		public Deck(boolean chanceDeck)
+			{
+				if (chanceDeck == false)
+					{
 //				if (chanceDeck == false){ // this is the presets of the community chest deck
 //				    this.cards[0]= new PayCard("bank error in your favor - collect $200", 200);
 //				    this.cards[1]= new PayCard("Doctor's fee - pay $50", -50);
@@ -27,9 +29,9 @@ public class Deck
 //				    this.cards[15] = new GoToCard("Advance to Go, Collect 200$",0);
 //				    this.total = 16;
 //				    
+					}
+
 			}
-			
-		}
 
 	}
-	//}
+// }
