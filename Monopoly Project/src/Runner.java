@@ -25,6 +25,7 @@ public class Runner
 
 		{
 			Directions.howToPlay();
+
 			SetUpPlayer.setUpPlaying();
 			System.out.println();
 // 			Dice.rollDice();
@@ -35,6 +36,7 @@ public class Runner
 		{
 			SetUpPlayer.setUpPlaying();
 // 			Dice.rollDice();
+
 
 		}
 		
