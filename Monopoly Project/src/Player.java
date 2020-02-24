@@ -85,4 +85,18 @@ public class Player
 		
 	}
 	
+	
+	public boolean endCondition() {
+		
+		if (money <= 0) {
+		System.out.println("You have gone bankrupt- you lose.");
+		System.exit(0);
+		return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	
 }

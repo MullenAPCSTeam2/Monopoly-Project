@@ -64,6 +64,8 @@ public class Runner
 			currentPlayer.changePosition(roll);			
 			Board.getBoard()[currentPlayer.getPosition()].landOnTile();
 			
+			// checks money status, bankrupt = lose game
+			currentPlayer.endCondition();
 
 			
 			
