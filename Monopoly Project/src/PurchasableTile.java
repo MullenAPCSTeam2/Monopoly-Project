@@ -28,6 +28,7 @@ public abstract class PurchasableTile extends Tile
 			System.out.println("Would you like to buy " + tileName + "? It costs: $" + cost +
 					"\n1.Yes 2.No");
 			choice = userInput.nextInt();
+
 			
 			if (choice == 1)
 			{
