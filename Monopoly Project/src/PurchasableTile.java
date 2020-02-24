@@ -31,15 +31,7 @@ public abstract class PurchasableTile extends Tile
 			if (choice == 1)
 
 			{
-				if (purchased == false)
-					{
-						System.out.println("You landed on: " + tileName);
-						System.out
-								.println("Would you like to buy " + tileName + "? It costs: $" + cost + "\n1.Yes 2.No");
-						choice = userInput.nextInt();
-
-						if (choice == 1)
-							{
+				
 								if (Runner.currentPlayer.getMoney() >= cost)
 									{
 										owner = Runner.currentPlayer;
@@ -47,7 +39,8 @@ public abstract class PurchasableTile extends Tile
 										Runner.currentPlayer.addMoney(cost * -1);
 										System.out.println("You have bought: " + tileName + "\nYou now have: $"
 												+ Runner.currentPlayer.getMoney());
-									} else
+									}
+								else
 									{
 										System.out.println("You do not have enough money to buy " + tileName);
 									}
@@ -56,4 +49,9 @@ public abstract class PurchasableTile extends Tile
 					}
 
 			}
+			
+	
+		
 	}
+
+		
