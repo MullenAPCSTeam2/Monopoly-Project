@@ -5,6 +5,7 @@ public class SetUpPlayer
 {
 
 	static ArrayList<Player> playing = new ArrayList<Player>();
+	static int monopolyTheme;
 
 	
 	public static void setUpPlaying()
@@ -14,7 +15,8 @@ public class SetUpPlayer
 		
 		Scanner intInput = new Scanner(System.in);
 		System.out.println("What monopoly theme do you want to play?\n1.Classic Monopoly\n2.Star Wars Monopoly");
-		int monopolyTheme = intInput.nextInt();
+		monopolyTheme = intInput.nextInt();
+		
 		
 		for (Player p : playing)
 		{

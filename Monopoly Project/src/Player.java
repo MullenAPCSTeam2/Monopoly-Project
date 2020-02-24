@@ -69,6 +69,8 @@ public class Player
 			Runner.currentPlayer.addMoney(200);
 			System.out.println("You pass GO, collect $200.");
 		}
+		
+		
 
 		return position;
 	}

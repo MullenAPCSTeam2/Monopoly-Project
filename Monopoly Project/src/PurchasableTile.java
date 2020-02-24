@@ -21,6 +21,7 @@ public abstract class PurchasableTile extends Tile
 		}
 		
 		@Override
+
 		public void landOnTile(){
 			if(purchased == false) {
 			System.out.println("You landed on: " + tileName);
@@ -37,20 +38,13 @@ public abstract class PurchasableTile extends Tile
 					Runner.currentPlayer.addMoney(cost*-1);
 					System.out.println("You have bought: " + tileName + "\nYou now have: $" +  Runner.currentPlayer.getMoney());
 				}
-			}
-			else
-			{
-				
-			}
-			
-			
-			}
-			else {
-				System.out.println("You do not own this tile someone else does you owe them rent");
-			}
-			
+        else
+        {
+        System.out.println("You do not have enough money to buy " + tileName);
+        }
+        }
+
+		
 		}
-		
-		
 		
 	}

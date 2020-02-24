@@ -20,6 +20,7 @@ public class FreeParking extends EventTile
 	@Override
 	public void triggerEvent() {
 		Runner.currentPlayer.switchDirection();
+		System.out.println("You switch the direction you move!");
 		
 	}
 

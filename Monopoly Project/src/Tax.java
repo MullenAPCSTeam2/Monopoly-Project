@@ -10,7 +10,18 @@ public class Tax extends EventTile
 	@Override
 	public void triggerEvent()
 		{
-			// TODO Auto-generated method stub
+			int pay = 0;
+			switch(this.getName()) {
+				case "\"Income Tax\"":
+					pay = 150;
+				case "\"Luxury Tax\"":
+					pay = 500;
+				default:
+					pay = 100;
+			}
+			System.out.println("Pay $" + pay +".");
+			Runner.currentPlayer.addMoney(pay * -1);
+			
 			
 		}
 
