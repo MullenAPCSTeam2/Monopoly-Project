@@ -115,7 +115,9 @@ static ArrayList<Player> playing = new ArrayList<Player>();
 //	public static void setPlaying(ArrayList<Player> playing)
 //		{
 //			Playing.playing = playing;
-		}
+// 		}
+}
+
 
 	
 }

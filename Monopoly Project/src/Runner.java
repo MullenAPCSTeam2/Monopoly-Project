@@ -69,6 +69,7 @@ public class Runner
 			
 			//land on tile
 			currentPlayer.changePosition(roll);			
+
 			Board.getBoard()[currentPlayer.getPosition()].landOnTile();
 			//Board.getBoard();
 			Board.getTile(currentPlayer.position).getName();
@@ -79,11 +80,14 @@ public class Runner
 
 
 
+
 			
 			
 			//next turn?
 			System.out.println("Press 'Enter' to roll again.");
 			continuePlay.nextLine();
+
+
 
 			
 			
