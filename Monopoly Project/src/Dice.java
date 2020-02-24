@@ -1,6 +1,7 @@
 
 public class Dice 
 {
+	static GoToJail currentPlayer;
 	public static int rollDice() 
 	{
 		int die1 = (int)(Math.random()*6) + 1;
@@ -25,6 +26,8 @@ public class Dice
 			if(count == 3)
 			{
 				System.out.println("You rolled a duplicate three times, go to jail.");
+				currentPlayer = new GoToJail();
+				
 			}
 		
 			else

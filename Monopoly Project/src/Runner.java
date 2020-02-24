@@ -25,19 +25,21 @@ public class Runner
 
 		{
 			Directions.howToPlay();
-			Playing.playing();
+
+			SetUpPlayer.setUpPlaying();
 
 			System.out.println();
-			Dice.rollDice();
+			
 
 		}
 		else
 		{
-			Playing.playing();
-
-			Dice.rollDice();
+			
+			SetUpPlayer.setUpPlaying();
+			System.out.println();
 
 		}
+	
 		
 		
 		
@@ -45,13 +47,19 @@ public class Runner
 		//running the game
 		
 		//turns
-		players = Playing.getPlaying();
+
+	//	players = Playing.getPlaying();
+//		players.add(currentPlayer);
+
+
+		players = SetUpPlayer.getPlaying();
 		players.add(currentPlayer);
 		currentPlayer = players.get(0);
 		
 		//now for each player
 		boolean playing = true;
-		while(playing){
+		while(playing == true){
+			
 			
 			//display current player info
 			currentPlayer.printPlayer();
@@ -61,39 +69,32 @@ public class Runner
 			
 			//land on tile
 			currentPlayer.changePosition(roll);			
-			//Board.getBoard()[currentPlayer.getPosition()].landOnTile();
-			Board.loadBoard();
+			Board.getBoard()[currentPlayer.getPosition()].landOnTile();
+			//Board.getBoard();
 			Board.getTile(currentPlayer.position).getName();
 			
+
 			// checks money status, bankrupt = lose game
 			currentPlayer.endCondition();
+
+
+
 			
 			
 			//next turn?
 			System.out.println("Press 'Enter' to roll again.");
 			continuePlay.nextLine();
-					
-			
-			
-			
-		}
-		
-		
-		
-		
-		
-		currentPlayer.changePosition(Dice.rollDice());
-		
-		Board.getBoard();
-		System.out.println((Board.getTile(currentPlayer.position)).getName());
-		
-		
-		
-		
-		
 
 			
+			
+		
 		}
+		
+		
+		
+		
+		
+	}
 	
 	public static void nextPlayer(){
 		int index = players.indexOf(currentPlayer);
@@ -102,4 +103,4 @@ public class Runner
 	}
 	
 		
-	}
+}
