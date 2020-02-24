@@ -39,11 +39,14 @@ public class Board
       
       		//make the file name right
       		String fileName = "TileSettings.txt";
+//      		System.out.println("Theme Choice " + SetUpPlayer.monopolyTheme);
       		switch (SetUpPlayer.monopolyTheme) {
       			case 1:
       				fileName = "TileSettings.txt";
+      				break;
       			case 2:
       				fileName = "StarWarsTile.txt";
+      				break;
       				
       			default:
       				System.out.println("There was an error loading the theme, loading Classic.");
@@ -53,6 +56,7 @@ public class Board
 			
 			try
 				{
+//					System.out.println("File: "+ fileName);
 					FileReader UBreader = new FileReader(fileName);
 					BufferedReader reader= new BufferedReader(UBreader);
 					
