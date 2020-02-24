@@ -15,7 +15,7 @@ public abstract class PurchasableTile extends Tile
 		}
 		
 		@Override
-		public void landOnTile(){
+		public void landOnTile(){			
 			if(purchased = false) {
 			System.out.println("would you like to buy " + tileName + " it costs " + cost);
 			}

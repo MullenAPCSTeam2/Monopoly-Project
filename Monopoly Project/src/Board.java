@@ -34,11 +34,26 @@ public class Board
 			//TODO set up the board based on the original game
 			
 			
-			//set upm reader
+			//set up reader
+      
+      
+      		//make the file name right
+      		String fileName = "TileSettings.txt";
+      		switch (SetUpPlayer.monopolyTheme) {
+      			case 1:
+      				fileName = "TileSettings.txt";
+      			case 2:
+      				fileName = "StarWarsTile.txt";
+      				
+      			default:
+      				System.out.println("There was an error loading the theme, loading Classic.");
+      			
+      		}
+      		
 			
 			try
 				{
-					FileReader UBreader = new FileReader(new File("TileSettings.txt"));
+					FileReader UBreader = new FileReader(fileName);
 					BufferedReader reader= new BufferedReader(UBreader);
 					
 					

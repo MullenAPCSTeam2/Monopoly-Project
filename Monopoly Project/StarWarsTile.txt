@@ -1,6 +1,6 @@
 GO
 Property, "X-34 Landspeeder", 60, "Purple"
-CommunityChest
+Chance
 Property, "TIE Fighter", 60, "Purple"
 Tax, "Imperial tax"
 Railroad, "X-wing Starfighter", 60
@@ -15,7 +15,7 @@ Property, "All Terrain Armored Transports", 140, "Pink"
 Property, "Katooni", 160, "Pink"
 Railroad, "Kuat Orbital Ring", 200
 Property, "Yeager", 180, "Orange"
-CommunityChest
+Chance
 Property, "Stealth Ship", 180, "Orange"
 Property, "Zygerrian", 200, "Orange"
 FreeParking
@@ -31,7 +31,7 @@ Property, "Dalkor Dagger", 280, "Yellow"
 GoToJail
 Property, "Star Destroyer", 300, "Green"
 Property, "Naboo Royal Starship", 300, "Green"
-CommunityChest
+Chance
 Property, "Super Star Destroyer", 320, "Green"
 Railroad, "Cosmic Turbine", 200
 Chance
