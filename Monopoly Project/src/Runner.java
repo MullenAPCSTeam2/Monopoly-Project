@@ -9,7 +9,7 @@ public class Runner
 	static int choice = 0;
 	static ArrayList<Player> players = new ArrayList<Player>();
 	static Player currentPlayer;
-	static String fake;
+	static Scanner continuePlay = new Scanner(System.in);
 
 	public static void main(String[] args) throws IOException
 
@@ -47,6 +47,7 @@ public class Runner
 		
 		//turns
 		players = SetUpPlayer.getPlaying();
+
 		currentPlayer = players.get(0);
 		
 		//now for each player
@@ -59,12 +60,11 @@ public class Runner
 			//roll
 			int roll = Dice.rollDice();
 			
-			
-			//jail?
-			
 			//land on tile
 			currentPlayer.changePosition(roll);			
-			Board.getBoard()[currentPlayer.getPosition()].landOnTile();
+			//Board.getBoard()[currentPlayer.getPosition()].landOnTile();
+			Board.loadBoard();
+			Board.getTile(currentPlayer.position).getName();
 			
 			// checks money status, bankrupt = lose game
 			currentPlayer.endCondition();
@@ -72,7 +72,9 @@ public class Runner
 			
 			
 			//next turn?
-			
+			System.out.println("Press 'Enter' to roll again.");
+			continuePlay.nextLine();
+					
 			
 			
 			
