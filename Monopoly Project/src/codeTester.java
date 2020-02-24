@@ -12,10 +12,12 @@ public class codeTester {
 		boolean playing = true;
 		while (playing == true)
 		{
-		player1.changePosition(Dice.rollDice());
-		System.out.println(player1.getPosition());
+		
+		Runner.currentPlayer = player1;
+		Runner.currentPlayer.changePosition(Dice.rollDice());
+		System.out.println(Runner.currentPlayer.getPosition());
 		Board.loadClassicGame();
-		System.out.println((Board.getTile(player1.position)).getName());
+		System.out.println((Board.getTile(Runner.currentPlayer.position)).getName());
 	
 		
 		System.out.println("Press 'Enter' to roll again.");
